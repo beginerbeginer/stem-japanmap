@@ -10,7 +10,7 @@
 1. yarn install
 1. yarn start
 
-## ディレクトリ構成
+## ディレクトリ構成（node_modulesを除く）
 
 
 ```
