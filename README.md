@@ -46,7 +46,7 @@
 ### 日本地図の表示についてのコードはApp.js
 
 ```javascript
-// /Users/masashimiyagaki/projects/stem-japanmap/src/App.js
+// /projects/stem-japanmap/src/App.js
 
 import React, { useEffect, useState } from 'react';
 import DeckGL from 'deck.gl';
@@ -188,7 +188,7 @@ export default () => {
 ### 各都道府県についてのコードはWindow.js
 
 ```javascript
-// /Users/masashimiyagaki/projects/stem-japanmap/src/components/Window.js  
+// /projects/stem-japanmap/src/components/Window.js  
 
 import React from 'react';
 
