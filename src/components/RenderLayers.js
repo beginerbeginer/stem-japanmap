@@ -23,6 +23,9 @@ export function renderLayers(props) {
 	`
 
 	const rateData = JSON.parse(jsonStr)
+	console.log(rateData);  //{status: "200 OK", data: Array(6)}
+	console.log('↑rateData終了');
+
 	const getColorRange = (geoJson, colorRange) => {
 
 		//　jsonStrのjcodeとpref.geojsonのJCODEが同じ値の場合matchesに値が入る
